@@ -1,0 +1,15 @@
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Entities\bin\Debug\netcoreapp3.1\Library.Data.deps.json
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Entities\bin\Debug\netcoreapp3.1\Library.Data.dll
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Entities\bin\Debug\netcoreapp3.1\Library.Data.pdb
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Entities\bin\Debug\netcoreapp3.1\Library.Entities.dll
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Entities\bin\Debug\netcoreapp3.1\Library.Entities.pdb
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Entities\obj\Debug\netcoreapp3.1\Library.Data.csprojAssemblyReference.cache
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Entities\obj\Debug\netcoreapp3.1\Library.Data.AssemblyInfoInputs.cache
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Entities\obj\Debug\netcoreapp3.1\Library.Data.AssemblyInfo.cs
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Entities\obj\Debug\netcoreapp3.1\Library.Data.csproj.CoreCompileInputs.cache
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Entities\obj\Debug\netcoreapp3.1\Library.Data.csproj.CopyComplete
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Entities\obj\Debug\netcoreapp3.1\Library.Data.dll
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Entities\obj\Debug\netcoreapp3.1\Library.Data.pdb
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Entities\bin\Debug\netcoreapp3.1\Library.Data.runtimeconfig.json
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Entities\bin\Debug\netcoreapp3.1\Library.Data.runtimeconfig.dev.json
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Entities\obj\Debug\netcoreapp3.1\Library.Data.genruntimeconfig.cache

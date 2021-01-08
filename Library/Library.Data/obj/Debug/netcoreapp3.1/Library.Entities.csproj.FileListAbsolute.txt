@@ -1,0 +1,9 @@
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Data\bin\Debug\netcoreapp3.1\Library.Entities.deps.json
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Data\bin\Debug\netcoreapp3.1\Library.Entities.dll
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Data\bin\Debug\netcoreapp3.1\Library.Entities.pdb
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Data\obj\Debug\netcoreapp3.1\Library.Entities.csprojAssemblyReference.cache
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Data\obj\Debug\netcoreapp3.1\Library.Entities.AssemblyInfoInputs.cache
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Data\obj\Debug\netcoreapp3.1\Library.Entities.AssemblyInfo.cs
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Data\obj\Debug\netcoreapp3.1\Library.Entities.csproj.CoreCompileInputs.cache
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Data\obj\Debug\netcoreapp3.1\Library.Entities.dll
+D:\My Project\.NetCoreLibraryManagement\Library\Library.Data\obj\Debug\netcoreapp3.1\Library.Entities.pdb
