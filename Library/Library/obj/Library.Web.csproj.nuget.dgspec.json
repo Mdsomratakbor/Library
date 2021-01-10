@@ -158,6 +158,77 @@
         }
       }
     },
+    "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library.Services\\Library.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library.Services\\Library.Services.csproj",
+        "projectName": "Library.Services",
+        "projectPath": "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library.Services\\Library.Services.csproj",
+        "packagesPath": "C:\\Users\\Md Somrat Akbor\\.nuget\\packages\\",
+        "outputPath": "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Md Somrat Akbor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library.Data\\Library.Entities.csproj": {
+                "projectPath": "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library.Data\\Library.Entities.csproj"
+              },
+              "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library.Entities\\Library.Data.csproj": {
+                "projectPath": "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library.Entities\\Library.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library\\Library.Web.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -186,8 +257,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library.Data\\Library.Entities.csproj": {
+                "projectPath": "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library.Data\\Library.Entities.csproj"
+              },
               "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library.Entities\\Library.Data.csproj": {
                 "projectPath": "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library.Entities\\Library.Data.csproj"
+              },
+              "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library.Services\\Library.Services.csproj": {
+                "projectPath": "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library.Services\\Library.Services.csproj"
               }
             }
           }

@@ -26,6 +26,8 @@
       "Library.Web/1.0.0": {
         "dependencies": {
           "Library.Data": "1.0.0",
+          "Library.Entities": "1.0.0",
+          "Library.Services": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.1",
@@ -1319,6 +1321,18 @@
         },
         "compile": {
           "Library.Entities.dll": {}
+        }
+      },
+      "Library.Services/1.0.0": {
+        "dependencies": {
+          "Library.Data": "1.0.0",
+          "Library.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Library.Services.dll": {}
+        },
+        "compile": {
+          "Library.Services.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3706,6 +3720,11 @@
       "sha512": ""
     },
     "Library.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Library.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

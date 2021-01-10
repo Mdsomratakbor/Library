@@ -73,3 +73,6 @@ D:\My Project\.NetCoreLibraryManagement\Library\Library\bin\Debug\net5.0\Library
 D:\My Project\.NetCoreLibraryManagement\Library\Library\bin\Debug\net5.0\Library.Entities.pdb
 D:\My Project\.NetCoreLibraryManagement\Library\Library\bin\Debug\net5.0\Humanizer.dll
 D:\My Project\.NetCoreLibraryManagement\Library\Library\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\My Project\.NetCoreLibraryManagement\Library\Library\bin\Debug\net5.0\Library.Services.dll
+D:\My Project\.NetCoreLibraryManagement\Library\Library\bin\Debug\net5.0\Library.Services.pdb
+D:\My Project\.NetCoreLibraryManagement\Library\Library\obj\Debug\net5.0\Razor\Views\Catalog\Index.cshtml.g.cs
