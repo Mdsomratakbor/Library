@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Web", "Library\Library.Web.csproj", "{D9F3E088-9F5A-46E9-8D06-6ADA6C48B8C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Web", "Library\Library.Web.csproj", "{D9F3E088-9F5A-46E9-8D06-6ADA6C48B8C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Entities", "Library.Data\Library.Entities.csproj", "{4A5535D3-B36B-4201-A100-8A582AE55F9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Entities", "Library.Data\Library.Entities.csproj", "{4A5535D3-B36B-4201-A100-8A582AE55F9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Data", "Library.Entities\Library.Data.csproj", "{C49A423D-E670-4269-B7A3-246DD103C6AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Data", "Library.Entities\Library.Data.csproj", "{C49A423D-E670-4269-B7A3-246DD103C6AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Services", "Library.Services\Library.Services.csproj", "{C9E2032C-73A6-4662-AE18-75B8D22A10A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library.Services", "Library.Services\Library.Services.csproj", "{C9E2032C-73A6-4662-AE18-75B8D22A10A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

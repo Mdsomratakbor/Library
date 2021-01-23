@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cLV02+FjTMbfQHGPgKUKlX74Hg6z7nAxvaTbFngA8MsghAatZXIF1Z3k2ZjyFlr6/apGLDstTzD6+VWn0mNKjg==",
+  "dgSpecHash": "eh1R42haje1uiVtLUgI13BhD1dKOc76APGzTcBKEqZbmJk59n2pvXiTUhpq2r2LtGFJEp2K9jvyYTw9Bg9/Zyw==",
   "success": true,
   "projectFilePath": "D:\\My Project\\.NetCoreLibraryManagement\\Library\\Library.Services\\Library.Services.csproj",
   "expectedPackageFiles": [
@@ -97,8 +97,7 @@
     "C:\\Users\\Md Somrat Akbor\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Md Somrat Akbor\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Md Somrat Akbor\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Md Somrat Akbor\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\Md Somrat Akbor\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\Md Somrat Akbor\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

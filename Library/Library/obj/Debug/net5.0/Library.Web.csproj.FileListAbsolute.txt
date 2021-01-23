@@ -76,3 +76,4 @@ D:\My Project\.NetCoreLibraryManagement\Library\Library\bin\Debug\net5.0\Microso
 D:\My Project\.NetCoreLibraryManagement\Library\Library\bin\Debug\net5.0\Library.Services.dll
 D:\My Project\.NetCoreLibraryManagement\Library\Library\bin\Debug\net5.0\Library.Services.pdb
 D:\My Project\.NetCoreLibraryManagement\Library\Library\obj\Debug\net5.0\Razor\Views\Catalog\Index.cshtml.g.cs
+D:\My Project\.NetCoreLibraryManagement\Library\Library\obj\Debug\net5.0\Razor\Views\Catalog\Detail.cshtml.g.cs
