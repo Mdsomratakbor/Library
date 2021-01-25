@@ -138,13 +138,13 @@ namespace Library.Services
 
             //DONE: close any existing checkout history
             CloseExistingCheckoutHistory(assetId, now);
-            //TODO: look for existing holds on the item
+            //DONE: look for existing holds on the item
             var currentHolds = _context.Holds
                 .Include(h=>h.LibraryAsset)
                 .Include(h=>h.LibraryCard)
                 .Where(h=>h.LibraryAsset.Id== assetId);
 
-            //TODO: if there are holds, chekcout the item to the librarycard with the earliest hold.
+            //DONE: if there are holds, chekcout the item to the librarycard with the earliest hold.
 
             if (currentHolds.Any())
             {

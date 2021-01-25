@@ -67,7 +67,7 @@ namespace Library.Web.Controllers
 
         public IActionResult Checkout(int id)
         {
-
+            return View(); 
         }
     }
 }
