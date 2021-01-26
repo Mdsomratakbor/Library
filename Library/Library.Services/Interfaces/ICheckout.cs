@@ -13,7 +13,7 @@ namespace Library.Services.Interfaces
         List<Hold> GetCurrentHolds(int id);
         Checkout GetById(int checkoutId);
         Checkout GetLatestCheckout(int assetId);
-
+        bool IsCheckedOut(int assetId);
         void CheckOutItem(int assetId, int libraryCardId);
         void CheckInItem(int assertId, int libraryCardId);
         void PlaceHold(int assetId, int libraryCardId);
