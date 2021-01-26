@@ -80,6 +80,11 @@ namespace Library.Web.Controllers
             };
             return View(model);
         }
+        public IActionResult CheckIn(int id)
+        {
+            _checkouts.CheckInItem(id);
+            return RedirectToAction("Detail", new { id = id });
+        }
         public IActionResult Hold(int id)
         {
             var asset = _assets.GetById(id);
@@ -107,7 +112,7 @@ namespace Library.Web.Controllers
         [HttpPost]
         public IActionResult PlaceCheckout(int assetId, int libraryCardId)
         {
-            _checkouts.CheckInItem(assetId, libraryCardId);
+            _checkouts.CheckOutItem(assetId, libraryCardId);
             return RedirectToAction("Detail", new { id = assetId });
         }
  

@@ -15,7 +15,7 @@ namespace Library.Services.Interfaces
         Checkout GetLatestCheckout(int assetId);
         bool IsCheckedOut(int assetId);
         void CheckOutItem(int assetId, int libraryCardId);
-        void CheckInItem(int assertId, int libraryCardId);
+        void CheckInItem(int assertId);
         void PlaceHold(int assetId, int libraryCardId);
         void MarkLost(int assetId);
         void MarkFound(int assetId);

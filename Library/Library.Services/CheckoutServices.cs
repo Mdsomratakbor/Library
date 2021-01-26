@@ -107,6 +107,7 @@ namespace Library.Services
         {
             var now = DateTime.Now;
             var asset = _context.LibraryAssets
+                .Include(x=>x.Status)
                 .FirstOrDefault(x=>x.Id == assetId);
             var card = _context.LibraryCards
                 .FirstOrDefault(x=>x.Id == libraryCardId);
@@ -127,7 +128,7 @@ namespace Library.Services
 
 
 
-        public void CheckInItem(int assetId, int libraryCardId)
+        public void CheckInItem(int assetId)
         {
             var now = DateTime.Now;
             var item = _context.LibraryAssets
@@ -149,6 +150,7 @@ namespace Library.Services
             if (currentHolds.Any())
             {
                 CheckouToEarliestHold(assetId, currentHolds);
+                return;
             }
             //TODO: otherwise update the item status to available
             UpdateAssetStatus(assetId, "Available");
