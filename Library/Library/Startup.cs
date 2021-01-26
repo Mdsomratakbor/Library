@@ -33,7 +33,7 @@ namespace Library
             services.AddControllersWithViews();
             services.AddSingleton(Configuration);
             services.AddScoped<ILibraryServices, LibraryAssetServices>();
-            services.AddScoped<ICheckout, CheckoutServices>();
+            services.AddScoped<ICheckoutServices, CheckoutServices>();
             services.AddDbContext<LibraryContext>(options => options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
             
         }

@@ -9,7 +9,7 @@ using System.Text;
 
 namespace Library.Services
 {
-    public class CheckoutServices : ICheckout
+    public class CheckoutServices : ICheckoutServices
     {
         private readonly LibraryContext _context;
         public CheckoutServices(LibraryContext context)
