@@ -12,8 +12,8 @@ namespace Library.Web.Controllers
     public class CatalogController : Controller
     {
         private readonly ILibraryServices _assets;
-        private readonly ICheckout _checkouts;
-        public CatalogController(ILibraryServices assets, ICheckout checkouts)
+        private readonly ICheckoutServices _checkouts;
+        public CatalogController(ILibraryServices assets, ICheckoutServices checkouts)
         {
             _assets = assets;
             _checkouts = checkouts;
