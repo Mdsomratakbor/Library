@@ -34,6 +34,7 @@ namespace Library
             services.AddSingleton(Configuration);
             services.AddScoped<ILibraryServices, LibraryAssetServices>();
             services.AddScoped<ICheckoutServices, CheckoutServices>();
+            services.AddScoped<IPatronServices, PatronServices>();
             services.AddDbContext<LibraryContext>(options => options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
             
         }

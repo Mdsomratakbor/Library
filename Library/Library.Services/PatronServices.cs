@@ -66,7 +66,13 @@ namespace Library.Services
 
         public List<Hold> GetHolds(int patronId)
         {
-            throw new NotImplementedException();
+            var cardId = Get(patronId).LibraryCard.Id;
+            return _context.Holds
+                .Include(x => x.LibraryCard)
+                .Include(x => x.LibraryAsset)
+                .Where(x => x.LibraryCard.Id == cardId)
+                .OrderByDescending(x => x.HoldPlaced)
+                .ToList();
         }
     }
 }
