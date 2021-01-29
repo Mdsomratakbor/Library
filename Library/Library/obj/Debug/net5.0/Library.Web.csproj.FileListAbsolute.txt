@@ -397,3 +397,5 @@ D:\My Project\.NetCoreLibraryManagement\Library\Library\obj\Debug\net5.0\Razor\V
 D:\My Project\.NetCoreLibraryManagement\Library\Library\obj\Debug\net5.0\Razor\Views\Catalog\Hold.cshtml.g.cs
 D:\My Project\.NetCoreLibraryManagement\Library\Library\obj\Debug\net5.0\Razor\Views\Patron\Index.cshtml.g.cs
 D:\My Project\.NetCoreLibraryManagement\Library\Library\obj\Debug\net5.0\Razor\Views\Patron\Detail.cshtml.g.cs
+D:\My Project\.NetCoreLibraryManagement\Library\Library\obj\Debug\net5.0\Razor\Views\Branch\Detail.cshtml.g.cs
+D:\My Project\.NetCoreLibraryManagement\Library\Library\obj\Debug\net5.0\Razor\Views\Branch\Index.cshtml.g.cs

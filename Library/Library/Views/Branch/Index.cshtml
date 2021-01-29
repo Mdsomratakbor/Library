@@ -1,0 +1,33 @@
+﻿@model Library.Web.ViewModels.BranchViewModels.BranchIndexViewmodel
+@{
+    ViewBag.Title = "Branch List";
+
+} 
+<h3>@ViewBag.Title</h3>
+<div class="branchIndex">
+    <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp customTable" id="patronIndexTable">
+        <thead>
+            <tr>
+                <th>Branch Name</th>
+                <th>Open Now</th>
+                <th>Number Of Assets</th>
+                <th>Number Of Patrons</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var data in Model.Braches)
+            {
+                <tr>
+                    <td>
+                        <a asp-controller="Branch" asp-action="Detail" asp-route-id="@data.Id">@data.Name</a>
+                    </td>
+                    <td>@data.IsOpen</td>
+                    <td>@data.NumberOfAssets</td>
+                    <td>@data.NumberOfPatrons</td>
+
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
